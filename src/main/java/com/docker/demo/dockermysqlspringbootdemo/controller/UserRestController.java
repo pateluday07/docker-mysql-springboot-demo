@@ -20,33 +20,33 @@ public class UserRestController {
 
     @PostMapping
     public ResponseEntity<UserDto> save(@Valid @RequestBody UserDto userDto) {
-        log.info("Rest API To Save User {}", userDto);
+        log.info("Rest API to save user {}", userDto);
         return ResponseEntity.ok(userService.save(userDto));
     }
 
     @PutMapping
     public ResponseEntity<UserDto> update(@Valid @RequestBody UserDto userDto) {
-        log.info("Rest API To Update User {}", userDto);
+        log.info("Rest API to update user {}", userDto);
         return ResponseEntity.ok(userService.update(userDto));
     }
 
     @GetMapping("{id}")
     public ResponseEntity<UserDto> getById(@PathVariable Long id) {
-        log.info("Rest API To Get User By Id {}", id);
+        log.info("Rest API to get user by id {}", id);
         return ResponseEntity.ok(userService.getById(id));
     }
 
     @GetMapping()
     public List<UserDto> getAll() {
-        log.info("Rest API To Get All Users");
+        log.info("Rest API to get all users");
         return userService.getAll();
     }
 
     @DeleteMapping("{id}")
     public ResponseEntity<String> deleteById(@PathVariable Long id) {
-        log.info("Rest API To Delete User By Id {}", id);
+        log.info("Rest API to delete user by id {}", id);
         userService.deleteById(id);
-        return ResponseEntity.ok("User Deleted Successfully");
+        return ResponseEntity.ok("User deleted successfully");
     }
 
 }
