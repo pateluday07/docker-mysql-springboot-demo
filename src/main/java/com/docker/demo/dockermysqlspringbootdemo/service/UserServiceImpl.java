@@ -73,6 +73,6 @@ public class UserServiceImpl implements UserService {
     }
 
     private ResponseStatusException userNotFoundException(Long id) {
-        return new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found for the " + id);
+        return new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found for the id " + id);
     }
 }
