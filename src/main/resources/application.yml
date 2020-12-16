@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/docker_mysql_springboot_demo?createDatabaseIfNotExist=true
+    url: jdbc:mysql://docker-mysql-springboot-demo-db:3306/docker_mysql_springboot_demo?createDatabaseIfNotExist=true
     username: root
-    password: root
+    password:
 
   jpa:
     show-sql: true
