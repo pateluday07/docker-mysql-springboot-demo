@@ -1,9 +1,5 @@
 FROM openjdk:11.0.9.1
 
-RUN apt-get install bash
-
-RUN apt-get install curl
-
 MAINTAINER pateluday07@gmail.com
 
 VOLUME /tmp

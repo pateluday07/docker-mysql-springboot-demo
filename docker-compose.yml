@@ -6,7 +6,7 @@ services:
     ports:
       - "8081:8081"
     networks:
-      - docker-mysql-springboot-demo
+      - network
     depends_on:
       - mysqlDb
     restart: on-failure
@@ -17,9 +17,14 @@ services:
     ports:
       - "3307:3306"
     networks:
-      - docker-mysql-springboot-demo
+      - network
+    volumes:
+      - volume:/var/lib/mysql
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD="true"
 
 networks:
-  docker-mysql-springboot-demo:
+  network:
+
+volumes:
+  volume:
