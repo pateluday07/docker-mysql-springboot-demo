@@ -1,6 +1,9 @@
+mysql:
+  host: ${DOCKER_MYSQL_SPRINGBOOT_DEMO_MYSQL_HOST:localhost:3307}
+
 spring:
   datasource:
-    url: jdbc:mysql://docker-mysql-springboot-demo-db:3306/docker_mysql_springboot_demo?createDatabaseIfNotExist=true
+    url: jdbc:mysql://${mysql.host}/docker_mysql_springboot_demo?createDatabaseIfNotExist=true
     username: root
     password:
 
