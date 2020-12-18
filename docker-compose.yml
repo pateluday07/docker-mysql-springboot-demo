@@ -23,7 +23,7 @@ services:
     volumes:
       - volume:/var/lib/mysql
     environment:
-      - MYSQL_ALLOW_EMPTY_PASSWORD="true"
+        MYSQL_ROOT_PASSWORD: root
 
 networks:
   network:
