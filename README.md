@@ -38,7 +38,7 @@ which is available in the `docker-mysql-springboot-demo`
 directory, this file contains the configuration which will start 
 the **SpringBoot App** and **MySQL** and make them connected.
 
-### Start the application with the help of docker
+### Start the Application with the help of Docker
 Go to the `docker-mysql-springboot-demo` directory and execute 
 the following command in the terminal
 
@@ -48,7 +48,9 @@ And we are done, the **SpringBoot App** will be starting on port
 **8081** and **MySQL** is on **3307**
 
 Now you can open the swagger to access the APIs: 
-[Swagger](http://localhost:8081/swagger-ui/#/)   
+[Swagger](http://localhost:8081/swagger-ui/#/)  
+
+Similarly, you can dockerize your application with MySQL.
 
 <p align="center">
   <b>Thank You :)</b>
