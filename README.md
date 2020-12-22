@@ -7,7 +7,7 @@ This project has been developed to demonstrate how to
 * JDK 11
 * MySQL
 
-### Dependencies And Tools Used To Build Applications
+### Dependencies And Tools Used To Build Application
 * Git
 * JDK 11
 * Spring Boot
