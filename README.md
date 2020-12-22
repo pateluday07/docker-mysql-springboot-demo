@@ -3,7 +3,7 @@
 This project has been developed to demonstrate how to 
 **dockerize** the **SpringBoot App** and **MySQL database**.
 
-### Requirements To Run Applications Without Docker
+### Requirements To Run Application Without Docker
 * JDK 11
 * MySQL
 
