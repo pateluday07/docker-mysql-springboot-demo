@@ -1,4 +1,5 @@
 # docker-mysql-springboot-demo
+![Header](src/main/resources/static/springboot+mysql+docker.png)
 
 This project has been developed to demonstrate how to 
 **dockerize** the **SpringBoot App** and **MySQL database**.
