@@ -1,4 +1,4 @@
-# docker-mysql-springboot-demo
+# docker-mysql-springboot-demo [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/pateluday07/docker-mysql-springboot-demo/blob/master/LICENSE)
 ![Header](src/main/resources/static/springboot+mysql+docker.png)
 
 This project has been developed to demonstrate how to 
